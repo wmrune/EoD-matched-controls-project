@@ -1,0 +1,9 @@
+# Deny-by-default: everything is ignored unless explicitly un-ignored below.
+# This is deliberate -- the project folder contains sensitive-adjacent files
+# (saved model objects that may embed row-level data, restricted-database
+# documentation, personal course drafts) that must not end up in a public
+# repo by accident.
+*
+
+!.gitignore
+!Foläk 2 projekt_WR.R
